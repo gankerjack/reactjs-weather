@@ -1,8 +1,13 @@
 import React from "react";
 import "./App.css";
+import WeatherCard from "./components/WeatherCard/Component";
 
 function App() {
-  return <div className="App"></div>;
+  return (
+    <div className="App">
+      <WeatherCard></WeatherCard>
+    </div>
+  );
 }
 
 export default App;
